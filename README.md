@@ -19,3 +19,37 @@ in tools.py
   <li>calculate_roullet_wheel() //random selection</li>
   <li>calculate_searching_space_accurcy() //calculate accuracy of the defined space</li>
 </ul>
+
+in scaling_tool.py:
+<p>we provide some scaling tool for scaling the fitness function value</p>
+<ul>
+  <li>linear_scaling()</li>
+  <li>dynamic_linear_scaling</li>
+  <li>pow_scaling</li>
+  <li>logarithm_scaling</li>
+  <li>nomalization</li>
+</ul>
+
+
+in GA.py:
+we defined main class
+<ul>
+  <li>Chromosome:</li>
+  <li>Generation:</li>
+  <li>Genetic:</li>
+</ul>
+
+
+<h3>for using use custom GA algoritm you can have your main() methon in Genetic class</h3>
+
+the parameter that you can tune it:
+<ul>
+  <li>number_of_papulation //Number of the papulation for starting</li>
+  <li>function //your specific function</li>
+  <li>fitness_function //custom fitness function</li>
+  <li>domain //input space</li>
+  <li>mutation_rate //mutation rate(default is 0)</li>
+  <li>crossover_rate//crossover rate (default is 1)</li>
+  <li>mutation_bit //number of genes bit that you want to do the mutation oprand</li>
+  <li>accurcy //accuracy of the genes value</li>
+</ul>
